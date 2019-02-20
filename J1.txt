@@ -1,0 +1,17 @@
+Vector<String> vector = new Vector<String>();
+    vector.add("First");
+    vector.add("Second");
+    vector.add("Third");
+    vector.add("Random");
+    System.out.println("Given vector is:");
+    System.out.println(vector);
+    System.out.println("Enter String to check whether present in vector or not:");
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    String check = br.readLine();
+
+      if(vector.contains(check)){
+        System.out.println("Element is present");
+      }
+      else{
+        System.out.println("Element not present");
+      }

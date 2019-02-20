@@ -1,0 +1,20 @@
+public static void main(String[] args) throws Exception {
+    
+    LinkedList<String> linkedList = new LinkedList<String>();
+    linkedList.add("First");
+    linkedList.add("Second");
+    linkedList.add("Third");
+    linkedList.add("Random");
+    System.out.println("Given LinkedList:");
+    System.out.println(linkedList);
+
+    //Pushing element to linkedList..
+
+    linkedList.push("Fourth");
+    System.out.println("LinkedList after Pushing element..\"Fourth\"");
+    System.out.println(linkedList);
+
+    linkedList.pop();
+    System.out.println("LinkedList after poping element..");
+    System.out.println(linkedList);
+  }
